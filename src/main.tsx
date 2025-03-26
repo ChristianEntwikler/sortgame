@@ -77,7 +77,7 @@ Devvit.addCustomPostType({
               <text size="medium">Gamer 1 time in secs: </text>
               <text size="medium" weight="bold">
                 {' '}
-                {'dgxfjg'}
+                {counter ?? ''}
               </text>
             </hstack>
             <hstack>

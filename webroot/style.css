@@ -47,12 +47,6 @@ h3 {
   font-weight: 500;
 }
 
-#username,
-#counter {
-  color: var(--accent-color);
-  font-weight: 600;
-}
-
 /* New button container */
 .button-container {
   display: flex;
@@ -86,22 +80,6 @@ button:active {
   transform: translateY(0);
 }
 
-#btn-decrease {
-  background-color: var(--primary-color);
-}
-
-pre {
-  background-color: white;
-  padding: 0.75rem;
-  border-radius: var(--border-radius);
-  box-shadow: var(--shadow);
-  overflow-x: auto;
-  font-family: 'Courier New', Courier, monospace;
-  border: 1px solid #e5e7eb;
-  font-size: 0.9rem;
-  margin: 0;
-}
-
 @media (max-width: 640px) {
   body {
     padding: 0.75rem;
@@ -132,15 +110,15 @@ body {
   margin: auto;
 }
 .gameui-item {
-  padding: 2%;
-  margin: 2%;
+  padding: 1.5%;
+  margin: 1.5%;
   background-color: #Ff8c00;
   cursor: grab;
   border: 1px solid #654321;
 }
 .btn-gamer{
   background-color: #654321;
-  padding:2%;
+  padding:1.5%;
   color:#fff;
 }
 
